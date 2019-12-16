@@ -1,11 +1,13 @@
 def fib(number_for_fibonacci):
-	# Add code here
-	return #Fibonacci number
+    
+	if number_for_fibonacci==1 or number_for_fibonacci==0:
+	    return 1
+	    
+	return (fib(number_for_fibonacci-1)+fib(number_for_fibonacci-2))
 
 
 def is_prime(number_to_check):
-    # Add code here
-    # comment added by new user
+    
     return #boolean value
 
 
@@ -15,6 +17,7 @@ def reverse_string(string_to_be_reversed):
 	# return reversed_string
 
 #Take input for fib in variable a
+a=int(input())
 
 print(fib(a))
 
@@ -24,6 +27,6 @@ print(fib(a))
 print(is_prime(b))
 
 
-#Take input for reverse in variable c
+#Take input for reverse in variable c 
 
 print(reversed_string(c))
