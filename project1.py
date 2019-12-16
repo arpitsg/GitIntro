@@ -17,9 +17,9 @@ def reverse_string(string_to_be_reversed):
 	# return reversed_string
 
 #Take input for fib in variable a
-a=int(input())
+k=int(input())
 
-print(fib(a))
+print(fib(k))
 
 
 #Take input for is_prime in variable b
